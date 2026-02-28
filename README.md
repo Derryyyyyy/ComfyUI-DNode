@@ -4,6 +4,17 @@
 
 ---
 
+## 🎬 效果对比 (Comparison)
+
+| 优化前 (Before / AI Stiff) | 优化后 (After / DNode Shake) |
+| :---: | :---: |
+| https://github.com/user-attachments/assets/aca1c343-18ca-4285-95a1-a3a9d7b3202b | https://github.com/user-attachments/assets/f6f4f3b8-1346-4003-a07a-82f3ce59eac1 |
+
+
+
+
+---
+
 ## 🇨🇳 中文说明 (Chinese)
 
 ### 💡 开发背景
@@ -14,54 +25,27 @@
 ### 🌟 核心特性
 *   **平滑运镜**：基于利萨茹曲线 (Lissajous) 算法，通过叠加多组低频正弦波生成轨迹，而非简单的随机乱抖。
 *   **中心对齐**：算法确保镜头始终围绕画面绝对中心点进行往复漂移，从根本上解决画面偏离、越飘越远的问题。
-*   **高保真度**：提供平滑、无锐角的呼吸感运镜，模拟真实的人体肌肉控制感，完美适配手持拍摄模拟。
+*   **高保真度**：提供平滑、无锐角的呼吸感运镜，模拟真实的人体肌肉控制感。
 
 ### ⚙️ 参数说明
-*   **intensity (强度)**：控制晃动的剧烈程度。默认 **0.40** 是经过测试的最佳平衡点。
-*   **zoom_factor (缩放)**：位移后的边缘保护机制。默认 **1.05** (放大5%) 配合 0.4 强度可完美防止黑边。
-*   **fps (帧速率)**：视频的帧率，用于辅助算法计算符合物理规律的运动周期。
-*   **seed (随机种子)**：决定多组频率叠加的初始形态，不同种子对应不同的平滑轨迹组合。
-
-### 📥 安装方法
-1.  **Git Clone (推荐)**：
-    进入 ComfyUI 的 `custom_nodes` 文件夹，打开终端运行：
-    `git clone https://github.com/Derryyyyyy/ComfyUI-DNode.git`
-2.  **手动安装**：
-    在 `custom_nodes` 下新建名为 **`ComfyUI-DNode`** 的文件夹，将本仓库的 `__init__.py` 放入其中。
-
-### 💡 使用方法
-1.  右键菜单路径：**`DNode`** -> **`🎥 Lissajous Camera Shake (V1)`**。
-2.  输入端：连接视频帧序列（IMAGE 批次）。
-3.  输出端：输出平滑抖动后的帧序列，可直接接入视频合并节点。
+*   **intensity (强度)**：默认 **0.40**。
+*   **zoom_factor (缩放)**：默认 **1.05**。
+*   **fps (帧速率)**：视频的帧率。
+*   **seed (随机种子)**：轨迹随机种子。
 
 ---
 
 ## 🇬🇧 English Documentation
 
 ### 💡 Background
-Current Digital Human and AI video generation technologies produce highly realistic characters, but the outputs often feel "stiff" or "artificial" due to overly static or perfect camera movements.
-
-**Lissajous Camera Shake** is designed to solve this specific problem. By simulating the subtle muscle tremors of a real handheld camera, it injects a sense of "authenticity" and "presence" into virtual videos, significantly enhancing their realism.
+Current Digital Human and AI video generation technologies produce realistic characters, but outputs often feel "stiff" due to static camera movements. **Lissajous Camera Shake** injects authenticity into virtual videos by simulating subtle handheld tremors.
 
 ### 🌟 Core Features
-*   **Smooth Motion**: Unlike common random noise shakes, this node generates trajectories by superimposing multiple low-frequency sine waves using the Lissajous algorithm.
-*   **Center Aligned**: The algorithm ensures the camera always drifts around the absolute center of the frame, preventing the "drifting away" issue common in noise-based methods.
-*   **High Fidelity**: Provides smooth, organic camera movement that simulates natural human muscle control, perfect for handheld simulation.
+*   **Smooth Motion**: Uses Lissajous algorithm to generate organic trajectories.
+*   **Center Aligned**: Ensures the camera drifts around the absolute center.
 
-### ⚙️ Parameters
-*   **intensity**: Controls the shake magnitude. Default **0.40** is the optimal balance for realistic handheld simulation.
-*   **zoom_factor**: Protection mechanism against edge clipping. Default **1.05** (5% zoom) works perfectly with 0.4 intensity.
-*   **fps**: Frame rate of the video, used to calculate correct physical motion cycles.
-*   **seed**: Determines the initial state of frequency superposition. Each seed provides a unique smooth trajectory.
+---
 
-### 📥 Installation
-1.  **Git Clone (Recommended)**:
-    Navigate to your ComfyUI `custom_nodes` folder and run:
-    `git clone https://github.com/Derryyyyyy/ComfyUI-DNode.git`
-2.  **Manual Installation**:
-    Create a folder named **`ComfyUI-DNode`** in your `custom_nodes` directory and place the `__init__.py` file inside.
-
-### 💡 Usage
-1.  Menu Path: **`DNode`** -> **`🎥 Lissajous Camera Shake (V1)`**.
-2.  Input: Connect your image batch (IMAGE).
-3.  Output: Outputs the shaken image batch, ready for video encoding nodes.
+### 📥 安装方法 (Installation)
+1. **Git Clone**: `git clone https://github.com/Derryyyyyy/ComfyUI-DNode.git`
+2. **Manual**: Create `ComfyUI-DNode` in `custom_nodes`.
