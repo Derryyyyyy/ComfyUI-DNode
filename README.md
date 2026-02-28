@@ -8,10 +8,7 @@
 
 | 优化前 (Before / AI Stiff) | 优化后 (After / DNode Shake) |
 | :---: | :---: |
-| <video src="https://github.com/user-attachments/assets/aca1c343-18ca-4285-95a1-a3a9d7b3202b" controls width="100%"></video> | <video src="https://github.com/user-attachments/assets/f6f4f3b8-1346-4003-a07a-82f3ce59eac1" controls width="100%"></video> |
-
-
-
+| <video src="https://github.com/user-attachments/assets/4daca800-15fe-4625-89fe-960de594bc7e" height="400px" controls></video> | <video src="https://github.com/user-attachments/assets/92756c49-d036-4838-a78f-7292e6f17eb0" height="400px" controls></video> |
 
 ---
 
