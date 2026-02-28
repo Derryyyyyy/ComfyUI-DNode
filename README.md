@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/a5748d7d-e4ca-4ac6-a496-3714c980b498
 
 | 优化前 (Before) | 优化后 (After) |
 | :---: | :---: |
-| <video src="Uploading D1.mp4…" height="400px" autoplay muted loop playsinline></video> | <video src="Uploading D2.mp4…" height="400px" autoplay muted loop playsinline></video> |
+| <video src="Uploading D1.mp4…" height="400px" controls></video> | <video src="Uploading D2.mp4…" height="400px" controls></video> |
 
 ---
 
