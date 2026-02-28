@@ -1,7 +1,7 @@
 
-https://github.com/user-attachments/assets/6b77a542-b380-4977-952f-03c6e2689de6
 
-https://github.com/user-attachments/assets/a5748d7d-e4ca-4ac6-a496-3714c980b498
+
+
 # ComfyUI-DNode: Lissajous Camera Shake (V1) 🎥
 
 **开发者 (Author):** 心寸
@@ -12,7 +12,7 @@ https://github.com/user-attachments/assets/a5748d7d-e4ca-4ac6-a496-3714c980b498
 
 | 优化前 (Before) | 优化后 (After) |
 | :---: | :---: |
-| <video src="Uploading D1.mp4…" height="400px" controls></video> | <video src="Uploading D2.mp4…" height="400px" controls></video> |
+| <video src="https://github.com/user-attachments/assets/6b77a542-b380-4977-952f-03c6e2689de6" height="400px" controls></video> | <video src="https://github.com/user-attachments/assets/a5748d7d-e4ca-4ac6-a496-3714c980b498" height="400px" controls></video> |
 
 ---
 
