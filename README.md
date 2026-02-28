@@ -6,9 +6,9 @@
 
 ## 🎬 效果对比 (Comparison)
 
-| 优化前 (Before / AI Stiff) | 优化后 (After / DNode Shake) |
+| 优化前 (Before) | 优化后 (After) |
 | :---: | :---: |
-| <video src="https://github.com/user-attachments/assets/4daca800-15fe-4625-89fe-960de594bc7e" height="400px" controls></video> | <video src="https://github.com/user-attachments/assets/92756c49-d036-4838-a78f-7292e6f17eb0" height="400px" controls></video> |
+| <video src="https://github.com/user-attachments/assets/4daca800-15fe-4625-89fe-960de594bc7e" height="400px" autoplay muted loop playsinline></video> | <video src="https://github.com/user-attachments/assets/92756c49-d036-4838-a78f-7292e6f17eb0" height="400px" autoplay muted loop playsinline></video> |
 
 ---
 
