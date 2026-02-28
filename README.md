@@ -1,11 +1,5 @@
 
-
-
-
 # ComfyUI-DNode: Lissajous Camera Shake (V1) 🎥
-
-**开发者 (Author):** 心寸
-
 ---
 
 ## 🎬 效果对比 (Comparison)
