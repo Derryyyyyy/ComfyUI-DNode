@@ -12,7 +12,7 @@
 ## 🇨🇳 中文说明
 
 ### 💡 开发背景
-目前的数字人（Digital Human）和 AI 生成视频技术在生成人物时非常逼真，但由于镜头轨迹往往过于死板、完美，容易产生一种“电子僵硬感”，缺乏真实拍摄的生命力。
+目前的数字人技术在生成人物时非常逼真，但由于镜头轨迹往往过于死板，容易产生一种“电子僵硬感”，缺乏真实拍摄的生命力。
 
 本节点 **Lissajous Camera Shake** 专门用于解决这一痛点。通过模拟真实手持镜头的微小肌肉晃动，为数字人视频注入逼然的“临场感”，显著提升视频的真实性和沉浸感。
 
@@ -45,7 +45,7 @@
 ## 🇬🇧 English Documentation
 
 ### 💡 Background
-Current Digital Human and AI video technologies produce realistic characters, but the outputs often feel "stiff" due to overly static or perfect camera movements.
+Current Digital Human technologies produce realistic characters, but the outputs often feel "stiff" due to overly static.
 
 **Lissajous Camera Shake** is designed to solve this problem. By simulating the subtle muscle tremors of a real handheld camera, it injects "presence" into virtual videos, significantly enhancing realism.
 
